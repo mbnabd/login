@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Poppise";
+    src: url("./font/PoppinsLatin-Regular.ttf") format(truetype);}
+    
+body{
+    font-family:Poppise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+
+}
+input,button{
+    outline: none;
+    font-family: inherit;
+    border: none;
+}
+button{
+    background: inherit;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.body{
+    box-shadow: 0 0 20px white;
+    display: flex;
+    border-radius: 12px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./img/sky2.jpg) ;
+
+
+}
+.img{
+    width: 420px;
+    height: auto;
+    rotate: -25deg;
+    transition: all 1s ease;
+
+}
+.inform{
+    width: 450px;
+    height: 450px;
+    backdrop-filter: blur(3px);
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 290px;
+    padding: 70px;
+    padding-top: 80px;
+    background: #000000da;
+    transition: all 1s ease;
+
+
+
+}
+.Welcom{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    background-image: linear-gradient(90deg,#fff,#fff,#fff,#000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: all 2s linear;
+}
+.ehsan{
+    font-size: 26px;
+}
+.BTNS{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: white;
+    padding: 1px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.BTN{
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+.on{
+background: #868585;
+}
+
+.Fname ,.Lname , .Email , .Pass{
+    margin-top: 10px;
+    gap: 15px;
+    display: flex;
+    text-shadow: 0 0 2px #2b2b2b;
+    transition: all 1s ease;
+    color: white;
+
+}
+.Email{
+    margin-left: 30px;
+    gap: 20px;
+}
+
+
+.FnameINP,.LnameINP , .emailINP ,.passINP{
+    width: 200px;
+    border-radius: 10px;
+    height: 25px;
+    cursor: pointer;
+    padding-left: 4px;
+    transition: all 0.5s ease;
+    
+}
+
+.submit{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #7e7d7d;
+    transition: all 1s ease;
+
+
+}
+input:focus{
+    box-shadow: 0 0  15px white;
+    background: #aeadad67;
+}
+.submit:hover{
+    box-shadow: 0 0  15px #000000;
+    background: #aeadad;
+    scale: 1.1;
+
+}
+
+
+
+.loginpage{
+    display: none;
+}
+.or{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.question{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
